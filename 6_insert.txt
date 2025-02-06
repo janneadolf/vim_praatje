@@ -3,7 +3,7 @@
     ''''''''''''''''''''''''''''''''''''''''
 
 Navigation is just the first step.
-We have pressed many keys, but actually 
+We have pressed many keys, but actually
 we haven't written a single letter, yet!
 
 Fortunately, there are many options to modify text with vim.
@@ -17,10 +17,10 @@ You go back to "normal mode" with [Esc] (i.e. the Escape key)
 
    --> [Esc] always brings you back to Normal Mode.
 
-<< try writing something here in insert mode.
+hello there << try writing something here in insert mode.
 
 
-Your safety belt: 
+Your safety belt:
 you can always [u] to Undo; or [Ctrl]+[r] to redo what you undid.
 > Insert extra characters somewh in this sentence. Then undo it.
 
@@ -28,7 +28,7 @@ you can always [u] to Undo; or [Ctrl]+[r] to redo what you undid.
 There are many more options to enter insert mode, vim is case sensitive:
 Try to find out for yourself what [A], [a] ("append"), and [I] do.
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 > sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 > Ut enim ad minim veniam,
 > quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -44,9 +44,9 @@ Try to change the word "word" by typing [cw], for "change word".
 > change this word
 
 
-Remember that you can change three words with [3cw]: 
+Remember that you can change three words with [3cw]:
     how about changing the following into "I was here!" or "INBO is great!"?
-> Change will come!
+> I was here!
 
 What would be the difference between [3cw] and [3cW]?
 > Word-change will come!
@@ -90,7 +90,7 @@ IMPORTANT: letters or words you [d]elete
     are automatically stored in "registers" (something like the clipboard).
 Task: In the two lines below,
 1. Delete the invasive species ("Vespa") with [df,]. Do not fix the space yet.
-2. Immediately paste it to the front of the list of invasive species 
+2. Immediately paste it to the front of the list of invasive species
       with [P] or [p] (difference: paste before/after the cursor).
 3. Bonus exercise: capitalize whole genera with [gUw]; move [wwww]
      and then REPEAT your last action with the dot [.].
@@ -106,7 +106,7 @@ You can apply this to whole sentences: try [dd], then [p]. Useful!
 > Have a coffee.
 
 
-Application: what would you do to quickly switch letters? 
+Application: what would you do to quickly switch letters?
 Please correct the following sentence and replace the question marks by the correct vim motion!
 > fI you cacidentally wsitched eltters, sue [???].
 
